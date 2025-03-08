@@ -54,8 +54,15 @@ $('#tel').mask('00 000 0000');
 //Verify book.html page
 const urlParams = new URLSearchParams(window.location.search);
 
-if(window.location.pathname == '/book.html' || window.location.pathname == '/Quinta-Melucha/book.html') {
-    console.log('bingo');
+// if(window.location.pathname == '/book.html' || window.location.pathname == '/Quinta-Melucha/book.html') {
+//     console.log('bingo');
+//     if(urlParams.get('event')) {
+//         document.getElementById("form").scrollIntoView({ behavior: "smooth" });
+//         document.getElementById('choose').value = urlParams.get('event');
+//     }
+// }
+
+if(window.location.pathname.includes('/book.html')) {
     if(urlParams.get('event')) {
         document.getElementById("form").scrollIntoView({ behavior: "smooth" });
         document.getElementById('choose').value = urlParams.get('event');
