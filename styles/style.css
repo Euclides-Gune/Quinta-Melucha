@@ -427,6 +427,10 @@ header > div > .header-title {
     padding: 5px;
 }
 
+input, textarea, select {
+    font-size: 16px;
+}
+
 .inputs {
     display: flex;
     justify-content: space-between;

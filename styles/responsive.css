@@ -18,7 +18,7 @@
     }
 
     .reservation-title {
-        background-image: url('../assets/imagens/background-2.jpg');
+        background-image: url('../assets/imagens/imagem-reservar.jpg');
         background-attachment: fixed;
         background-size: cover;
     }
@@ -135,12 +135,14 @@
     }
 
     header > div > h1 {
+        display: block;
         text-align: center;
         margin: 10px;
     }
 
     .header-call {
         font-weight: normal;
+        display: block;
     }
 
     header .header-title {
