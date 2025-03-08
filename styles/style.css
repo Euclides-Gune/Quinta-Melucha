@@ -308,7 +308,6 @@ header > div > .header-title {
 
 /*booking*/
 .reservations-header {
-    /* border: 1px solid black; */
     margin-top: 60px;
     display: flex;
     flex-direction: row;
@@ -320,11 +319,9 @@ header > div > .header-title {
 .reservations-header > div {
     width: 50%;
     height: 100%;
-    /* border: 1px solid red; */
 }
 
 .reservation-title {
-    /* border: 1px solid green; */
     height: 40%;
     display: flex;
     justify-content: center;
@@ -338,7 +335,6 @@ header > div > .header-title {
 }
 
 .reservation-description {
-    /* border: 1px solid green; */
     padding: 20px;
     margin-right: 60px;
 }
@@ -352,15 +348,12 @@ header > div > .header-title {
 }
 
 .res-contacts {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    /* padding-right: 50px; */
     margin-top: 10px;
 }
 
 .res-contacts > div {
-    /* border: 1px solid black; */
     width: 50%;
     margin: 0px;
 }
