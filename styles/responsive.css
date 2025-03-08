@@ -18,9 +18,10 @@
     }
 
     .reservation-title {
-        background-image: url('../assets/imagens/imagem-reservar.jpg');
+        background-image: url('../assets/imagens/imagem-reservar\ -responsivo.jpg');
         background-attachment: fixed;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .reservations-header > div {
@@ -43,6 +44,20 @@
 
     .nav-logo h1 {
         color: white;
+    }
+
+    header {
+        background-image: url('../assets/imagens/quinta-melucha-responsivo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .events-header {
+        background-image: url('../assets/imagens/eventos-responsivo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     #menu-btn {
