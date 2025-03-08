@@ -22,7 +22,7 @@
         height: 100%;
     }
 
-    .reservation-title, .services-header {
+    .reservation-title {
         background-image: url('../assets/imagens/imagem-reservar.jpg');
         background-size: contain;
         background-repeat: no-repeat;
@@ -81,14 +81,8 @@
         color: var(--golden);
     }
 
-    header {
-        background-image: url("../assets/imagens/quinta-melucha-responsive.jpg");
-        background-size: cover;
-    }
-
-    .events-header {
-        background-image: url('../assets/imagens/eventos-responsivo.jpg');
-        background-position: center center;
+    header, .events-header {
+        background-size: contain;
     }
 
     .content {
