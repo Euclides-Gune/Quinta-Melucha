@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-    <link rel="stylesheet" href="../styles/responsive.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Quinta Melucha</title>
 </head>
 <body>
@@ -18,13 +18,13 @@
 
         <ul class="poppins-light" id="nav-menu" >
             <li>
-                <a href="pages/index.html">Home</a></li>
-                <li><a href="pages/events.html">Eventos</a></li>
-            <li><a href="pages/book.html"> Fazer Reserva</a></li>
+                <a href="index.html">Home</a></li>
+                <li><a href="events.html">Eventos</a></li>
+            <li><a href="book.html"> Fazer Reserva</a></li>
 
-            <li><a href="pages/services.html">Serviços</a></li>
+            <li><a href="services.html">Serviços</a></li>
 
-            <li><a href="pages/about.html">Sobre Nós</a></li>
+            <li><a href="about.html">Sobre Nós</a></li>
             
             <li><a href="#contacts">Contactos</a></li>
         </ul>
@@ -37,75 +37,74 @@
 
     </nav>
 
-    <div class="events-header">
-        <h1>Eventos</h1>
+    <div class="reservations-header">
+
+        <div>
+            <div class="reservation-title">
+                <h1>RESERVAS</h1>
+            </div>
+            <div class="reservation-description">
+                <h4>Garanta seu evento especial na Quinta Melucha!</h4>
+                <p>Nossa Quinta oferece um ambiente acolhedor e sofisticado para casamentos, aniversários, confraternizações e moemntos inesquecíveis. Faça sua reserva e assegure a sua data!</p>
+                <div class="res-contacts">
+                    <div>
+                        <h4>Restaurante</h4>
+                        <p><span class="material-symbols-outlined">
+                            location_on
+                        </span>Av. de Moçambique</p>
+                    </div>
+                    <div>
+                        <h4>Contactos</h4>
+                        <p>T: +351 123 456 789</p>
+                        <p>quintamelucha07@gmail.com</p>
+                    </div>
+                </div>
+                <a href="tel:+258876494529">
+                    <button><i class="fa-solid fa-phone"></i> Reservar</button>
+                </a>
+                
+            </div>
+        </div>
+
+        <div>
+            <img src="../assets/imagens/imagem-reservar.jpg" alt="">
+        </div>
+
     </div>
 
-    <div class="events-cards">
-        
-            <div class="card">
-                <h1>Casamentos</h1>
-                <div class="carrossel">
-                    <div class="images" id="images-1">
-                        <img src="../assets/imagens/casamento.jpg" alt="festa de casamento na quinta Melucha">
-                        <img src="../assets/imagens/casamento-1.jpg" alt="festa de casamento na quinta Melucha">
-                        <img src="../assets/imagens/casamento-2.jpg" alt="festa de casamento na quinta Melucha">
-                    </div>
+    <div class="res-content">
+        <div class="proposal">
+            <h3>Reservas, propostas, sugestões?</h3>
+            <p>Estamos mais que prontos a anotar o seu pedido</p>
+        </div>
+        <div class="proposal-form">
+                 
+            <form id="form">
+                <div class="inputs">
+                    <input type="text" name="username" id="username" placeholder="Nome" required>
+                    <input type="tel" name="tel" id="tel" placeholder="Telefone" required>
                 </div>
                 <div>
-                    <a href="./book.html?event=Casamento"><button class="book-btn" type="button">Reserve Já</button>
-                    </a>
-                </div>
-            </div>
+                    <textarea name="message" id="message" placeholder="Digite a sua mensagem"></textarea>
 
-            <div class="card">
-                <h1>Batismos</h1>
-                <div class="carrossel">
-                    <div class="images" id="images-2">
-                        <img src="../assets/imagens/batismo.jpg" alt="festa de batismo na quinta Melucha">
-                        <img src="../assets/imagens/batismo-1.jpg" alt="festa de batismo na quinta Melucha">
-                        <img src="../assets/imagens/batismo-2.jpg" alt="festa de batismo na quinta Melucha">
-                    </div>
-                </div>
-                <div>
-                    <a href="./book.html?event=Batismo">           
-                    <button class="book-btn" type="button">Reserve Já</button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="card">
-                    <h1>Aniversários</h1>
-                    <div class="carrossel">
-                        <div class="images" id="images-3">
-                        <img src="../assets/imagens/festa-de-aniversario.jpg" alt="festa de aniversário">
-                        <img src="../assets/imagens/festa-de-aniversario-2.jpg" alt="festa de aniversário">
-                        <img src="../assets/imagens/festa-de-aniversario-1.jpg" alt="festa de aniversário">
-                        </div>
-                    </div>
-                    <div>
-                        <a href="./book.html?event=Aniversário">           
-                        <button class="book-btn" type="button">Reserve Já</button>
+                    Tipo de evento <select name="choose" id="choose" required>
+                        <option value="Casamento">Casamento</option>
+                        <option value="Batismo">Batismo</option>
+                        <option value="Aniversário">Aniversário</option>
+                        <option value="Show">Show</option>
+                        <option value="Outro Evento">Outro Evento</option>
+                    </select>
+                    <div class="res-buttons">
+                        <a href="https://wa.me/258876494529" target="_blank">
+                            <button class="whatsapp-btn" type="button"><i class="fa-brands fa-whatsapp"></i> Reservar</button>
+                        </a>
+                        <a href="mailto:es7.comercial@gmail.com" target="_blank">
+                            <button class="email-btn" type="button"><i class="fa-solid fa-envelope"></i>  Reservar</button>
                         </a>
                     </div>
-            </div>
-
-            <div class="card">
-                    <h1>Shows</h1>
-                    <div class="carrossel">
-                        <div class="images" id="images-4">
-                            <img src="../assets/imagens/show.jpg" alt="shows na quinta Melucha">
-                            <img src="../assets/imagens/show-1.jpg" alt="shows na quinta Melucha">
-                            <img src="../assets/imagens/show-2.jpg" alt="shows na quinta Melucha">
-                        </div>
-                    </div>
-                    <div>
-                        <a href="./book.html?event=Show">
-                            <button class="book-btn" type="button">Reserve Já</button>
-                        </a>
-                    </div>
-            </div>
-
+                </div>
+            </form>
+        </div>
     </div> 
 
     <footer id="contacts">
@@ -149,32 +148,32 @@
                         <span class="material-symbols-outlined">
                         arrow_forward
                         </span>
-                        <a href="pages/index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/events.html">Eventos</a>
+                        <a href="events.html">Eventos</a>
                     </li>
                     
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/book.html">Fazer Reserva</a>
+                        <a href="book.html">Fazer Reserva</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/services.html">Serviços</a>
+                        <a href="services.html">Serviços</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/about.html">Sobre Nós</a>
+                        <a href="about.html">Sobre Nós</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
@@ -199,6 +198,10 @@
 
     <script src="https://kit.fontawesome.com/16aaa7fe4d.js" crossorigin="anonymous"></script>
 
-    <script src="../scripts/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+    <script src="./scripts/index.js"></script>
+
 </body>
 </html>

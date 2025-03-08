@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta name="description" content="">
+    <meta author="" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-    <link rel="stylesheet" href="../styles/responsive.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Quinta Melucha</title>
 </head>
 <body>
@@ -18,13 +22,13 @@
 
         <ul class="poppins-light" id="nav-menu" >
             <li>
-                <a href="pages/index.html">Home</a></li>
-                <li><a href="pages/events.html">Eventos</a></li>
-            <li><a href="pages/book.html"> Fazer Reserva</a></li>
+                <a href="index.html">Home</a></li>
+                <li><a href="events.html">Eventos</a></li>
+            <li><a href="book.html"> Fazer Reserva</a></li>
 
-            <li><a href="pages/services.html">Serviços</a></li>
+            <li><a href="services.html">Serviços</a></li>
 
-            <li><a href="pages/about.html">Sobre Nós</a></li>
+            <li><a href="about.html">Sobre Nós</a></li>
             
             <li><a href="#contacts">Contactos</a></li>
         </ul>
@@ -37,60 +41,64 @@
 
     </nav>
 
-    <div class="services-header">
-        <h1>Serviços</h1>
-    </div>
-
-    <div class="services-content">
-        <div class="services-description-box">
-            <div class="services-title">
-                <h3>NOSSOS <br> SERVIÇOS <br> <span class="services-logo">Quinta Melucha</span> </h3>
-            </div>
-            <div class="services-description">
-                <p>Bem-vindo à Quinta Melucha! Um <b>espaço</b> encantador para transformar momentos <b>especiais</b> em lembranças <b>inesquecíveis.</b> Seja para um casamento mágico, uma festa exclusiva ou um evento corporativo <b>sofisticado</b>, aqui você encontra o ambiente ideal, rodeado pela natureza e com estrutura completa para receber seus <b>convidados.</b></p>
-            </div>
+    <header>
+        <div>
+            <h1>Bem Vindo</h1>
+            <h1 class="header-call">à</h1>
+            <h1 class="dancing-script header-title">Quinta <span class="melucha">Melucha</span></h1>
         </div>
-    </div>
+    </header>
 
-    <div class="services-cards-box">
-        <h2>O Que Oferecemos?</h2>
-        <div class="services-cards">
-            <div class="services-card">
-                <div class="services-line">
-                    <div class="image">
-                    <img src="../assets/imagens/evento-corporativo.jpg" alt="evento corporativo">
-                </div>
-                <h5>Eventos Corporativos</h5>
-                <p>O ambiente ideal <br> para reuniões, <br> workshops <br> e celebrações <br> empresariais</p>
-                </div>
-            </div>
-            <div class="services-card">
-                <div class="services-line">
-                    <div class="image">
-                    <img src="../assets/imagens/evento-de-casamento.jpeg" alt="evento de casamento">
-                </div>
-                <h5>Casamentos & festas</h5>
-                <p>Um cenário <br> romântico <br> e elegante, <br> para celebrar <br> o amor</p>
-                </div>
-            </div>
-            <div class="services-card">
-                <div class="services-line">
-                    <div class="image">
-                    <img src="../assets/imagens/evento-privado.jpeg" alt="evento privado">
-                </div>
-                <h5>Eventos Privados</h5>
-                <p>Aniversários, <br> Batizados e <br> qualquer ocasião <br> especial  com um <br> toque exclusivo</p>
-                </div>
-            </div>
+    <div class="container">
+
+        <div class="presentation">
+            <h1 class="dancing-script header-title">Quinta Melucha</h1>
+
+        <p>
+            Na Quinta Melucha, cada evento se transforma em uma experiência única e memorável. Com um ambiente sofisticado e cercado pela natureza, oferecemos o cenário perfeito para casamentos, festas, encontros corporativos e celebrações especiais. 
+            <p>Nossa missão é tornar cada detalhe impecável, proporcionando conforto, elegância e um toque exclusivo para você e seus convidados.</p>
+            <p>Descubra a magia de celebrar na Quinta Melucha!</p>
+        </p>
         </div>
-    </div>
 
-    <div class="services-booking">
-        <a href="./book.html" target="_blank">
-            <button class="services-button">
-                Reserve Agora!
-            </button>
-        </a>
+        <div class="content">
+
+            <div class="locale">
+                <div>
+                    <h1>
+                        Localização 
+                    </h1>
+                    <p>
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        Avenida de Moçambique-Maputo
+                    </p>
+                </div>
+
+                <div>
+                    <h1>Horário </h1>
+                    <p>
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                        Aberto todos os dias das 10h00 às 17h00
+                    </p>
+                </div>
+
+                <div>
+                    <a href="./book.html" >
+                        <button id="reservation">Reservar</button>
+                    </a>
+                </div>
+            </div>
+    
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3592.571348611036!2d32.59717817449505!3d-25.784718377337384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x1ee6931447882165%3A0x14079a546296eeb8!2sQuinta%20Melucha%2C%20Avenida%20de%20Mocambique!3m2!1d-25.7847135!2d32.5996829!5e0!3m2!1spt-PT!2smz!4v1740688904291!5m2!1spt-PT!2smz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
     </div>
 
     <footer id="contacts">
@@ -134,32 +142,32 @@
                         <span class="material-symbols-outlined">
                         arrow_forward
                         </span>
-                        <a href="pages/index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/events.html">Eventos</a>
+                        <a href="events.html">Eventos</a>
                     </li>
                     
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/book.html">Fazer Reserva</a>
+                        <a href="book.html">Fazer Reserva</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/services.html">Serviços</a>
+                        <a href="services.html">Serviços</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
-                        <a href="pages/about.html">Sobre Nós</a>
+                        <a href="about.html">Sobre Nós</a>
                     </li>
                     <li>
                         <span class="material-symbols-outlined">
@@ -181,9 +189,9 @@
         </section>
 
     </footer>
-
+    
     <script src="https://kit.fontawesome.com/16aaa7fe4d.js" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
 
-    <script src="../scripts/index.js"></script>
 </body>
 </html>
