@@ -81,17 +81,6 @@
         color: var(--golden);
     }
 
-    header {
-        height: 300px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .events-header {
-        height: 300px;
-        background-position: center bottom;
-    }
-
     .content {
         display: block;
         height: 750px;
