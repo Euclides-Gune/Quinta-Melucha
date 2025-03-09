@@ -108,9 +108,9 @@ header {
     height: 400px;
     margin-top: 60px;
     background-image: url('../assets/imagens/quinta-melucha.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +216,6 @@ header > div > .header-title {
 .events-header {
     height: 500px;
     background-image: url('../assets/imagens/eventos.jpg');
-    background-position: top;
     background-attachment: fixed;
     background-size: cover;
     margin-top: 60px;
@@ -344,7 +343,9 @@ header > div > .header-title {
 }
 
 .reservation-description p {
-    text-align: justify;
+    /* border: 1px solid black; */
+    /* text-align: justify;
+    line-break:normal; */
 }
 
 .res-contacts {
@@ -356,6 +357,10 @@ header > div > .header-title {
 .res-contacts > div {
     width: 50%;
     margin: 0px;
+}
+
+.res-contacts h5 {
+    font-weight: normal;
 }
 
 .reservation-description button {
@@ -456,6 +461,7 @@ input, textarea, select {
 
 .res-buttons a {
     text-decoration: none;
+    color: black;
 }
 
 .res-buttons button {
@@ -569,7 +575,11 @@ input, textarea, select {
     margin: 10px auto 0px;
     width: 90%;
     font-weight: bolder;
+}
 
+.services-booking a {
+    text-decoration: none;
+    color: black;
 }
 
 .services-button {

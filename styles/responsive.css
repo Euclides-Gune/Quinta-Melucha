@@ -81,8 +81,15 @@
         color: var(--golden);
     }
 
-    header, .events-header {
-        background-size: contain;
+    header {
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .events-header {
+        height: 300px;
+        background-position: center bottom;
     }
 
     .content {
@@ -123,14 +130,18 @@
     .res-content input {
         width: 300px;
     }
- 
+
+    /* Services */
+    
+    .services-header {
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: var(--golden);
+    }
 }
 
 @media screen and (max-width: 768px) {
-
-    header {
-        background-position: center;
-    }
 
     header div {
         display: flex;
@@ -140,7 +151,6 @@
     }
 
     header > div > h1 {
-        display: block;
         text-align: center;
         margin: 10px;
     }
