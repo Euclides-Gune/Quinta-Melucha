@@ -218,6 +218,7 @@ header > div > .header-title {
     background-image: url('../assets/imagens/eventos.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: top center;
     margin-top: 60px;
     display: flex;
     justify-content: center;
