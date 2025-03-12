@@ -83,14 +83,14 @@
 
     header {
         background-image: url('../assets/imagens/imagem-reservar.jpg');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
 
     .events-header {
         background-image: url('../assets/imagens/imagem-reservar.jpg');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
