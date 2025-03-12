@@ -107,10 +107,9 @@ header {
     width: 100%;
     height: 400px;
     margin-top: 60px;
-    background-image: url('../assets/imagens/quinta-melucha.jpg');
+    background-image: url('../assets/imagens/imagem-reservar.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,10 +214,9 @@ header > div > .header-title {
 
 .events-header {
     height: 500px;
-    background-image: url('../assets/imagens/eventos.jpg');
-    background-attachment: fixed;
+    background-image: url('../assets/imagens/imagem-reservar.jpg');
     background-size: cover;
-    background-position: top center;
+    background-attachment: fixed;
     margin-top: 60px;
     display: flex;
     justify-content: center;
@@ -309,6 +307,7 @@ header > div > .header-title {
 /*booking*/
 .reservations-header {
     margin-top: 60px;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
