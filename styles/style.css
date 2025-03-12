@@ -213,7 +213,7 @@ header > div > .header-title {
 /* Eventos */
 
 .events-header {
-    height: 500px;
+    height: 400px;
     background-image: url('../assets/imagens/imagem-reservar.jpg');
     background-size: cover;
     background-attachment: fixed;
