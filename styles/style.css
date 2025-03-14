@@ -107,7 +107,7 @@ header {
     width: 100%;
     height: 400px;
     margin-top: 60px;
-    background-image: url('../assets/imagens/imagem-reservar.jpg');
+    background-color: var(--golden);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -214,7 +214,7 @@ header > div > .header-title {
 
 .events-header {
     height: 400px;
-    background-image: url('../assets/imagens/imagem-reservar.jpg');
+    background-color: var(--golden);
     background-size: cover;
     background-attachment: fixed;
     margin-top: 60px;
@@ -488,7 +488,7 @@ input, textarea, select {
 .services-header {
     height: 400px;
     margin-top: 60px;
-    background-image: url('../assets/imagens/imagem-reservar.jpg');
+    background-color: var(--golden);
     background-size: cover;
     background-attachment: fixed;
     display: flex;

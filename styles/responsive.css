@@ -23,7 +23,7 @@
     }
 
     .reservation-title {
-        background-image: url('../assets/imagens/imagem-reservar.jpg');
+        background-color: var(--golden);
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -79,20 +79,6 @@
     nav ul li a:hover {
         background-color: white;
         color: var(--golden);
-    }
-
-    header {
-        background-image: url('../assets/imagens/imagem-reservar.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    .events-header {
-        background-image: url('../assets/imagens/imagem-reservar.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
     }
 
     .content {
