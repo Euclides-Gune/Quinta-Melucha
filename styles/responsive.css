@@ -23,7 +23,7 @@
     }
 
     .reservation-title {
-        background-color: var(--golden);
+        background-image: url('../assets/imagens/pexels-quark-studio-1159039-3201921\ \(1\).jpg');
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment: fixed;
