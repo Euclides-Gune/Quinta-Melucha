@@ -123,10 +123,13 @@
     /* Services */
     
     .services-header {
-        height: 200px;
+        height: 180px;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: var(--golden);
+    }
+
+    .services-content {
+        margin-top: 0px;
     }
 }
 
